@@ -12,7 +12,7 @@ setup(
     long_description=README,
     author='Alexander Klose',
     author_email='alexander.klose@devzero.io',
-    url='tbd',
+    url='https://github.com/scathaig/robotframework-iperf3',
     python_requires=">=3.8",
     license='Apache License 2.0',
     install_requires=[

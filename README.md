@@ -19,8 +19,8 @@ unreliable to use, so I decided to just use the binary. Bonus: now it works on W
 
 For remote access the library uses [PythonRemoteServer](https://github.com/robotframework/PythonRemoteServer) which uses
 XML-RPC to communicate with Robot's [Remote interface](https://github.com/robotframework/RemoteInterface). XML-RPC is
-limited to 2^32 integers. Because of that all values larger that are converted to float - so don't be surprised to see
-for example 4294967297.0 transmitted bytes :)
+limited to 2^32 integers. Because of that all values larger than that are converted to float - so don't be surprised to
+see for example 4294967297.0 transmitted bytes :)
 
 If an argument expects a bool value it may be given as bool or a string that looks like a bool: ${TRUE}, ${FALSE},
 true, True, false, False are fine.

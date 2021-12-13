@@ -1,0 +1,2 @@
+recursive-exclude __pycache__ *.pyc *.pyo *.orig
+include robotframework-iperf3/*

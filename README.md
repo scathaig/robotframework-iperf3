@@ -6,7 +6,7 @@ The library assumes that iPerf3 is installed and that the executable can be foun
 The library can also be run as a remote library so that the PC running iPerf3 and connected to the DUT does not have
 to be the same one as the PC running the test. The remote library can be started with:
 
-    usage: python3 -m robotframework-iperf3 [-h] [-a ADDRESS] [-p PORT]
+    usage: python3 -m robotframework_iperf3 [-h] [-a ADDRESS] [-p PORT]
     
     optional arguments:
       -h, --help            show this help message and exit

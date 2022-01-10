@@ -6,8 +6,8 @@ with open('README.md') as f:
 
 
 setup(
-    name='robotframework-iperf3',
-    version='1.0.0',
+    name='robotframework_iperf3',
+    version='1.1.0',
     description='Robot Framework Iperf3 library',
     long_description=README,
     author='Alexander Klose',
